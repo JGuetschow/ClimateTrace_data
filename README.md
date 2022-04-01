@@ -10,7 +10,7 @@ Climate trace does not specify the global warming potential used, thus the use o
 * currently only the 2021 Repository is available
 
 ## Usage
-* The data is ready to use in the folder data_primap2/<version>
+* The data is ready to use in the folder data_primap2/<version>. Data is only available in the gin repository hosted on gin.hemio.de. When cloning from github you need datalad to obtain the data using `datalad get <filename>`.
 * If you want to modify or run the code create the virtual environment using
   `doit setup_venv`. To convert the data to PRIMAP2 format run `doit convert_2021`.
 
