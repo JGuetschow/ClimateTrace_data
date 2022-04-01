@@ -1,0 +1,21 @@
+attrs:
+  references: https://www.climatetrace.org/inventory
+  rights: ''
+  contact: johannes.guetschow@pik-potsdam.de
+  title: Climate Trace Emissions Inventory 2021
+  comment: Read fom csv file by Johannes Gütschow
+  institution: Climate Trace - www.climatetrace.org
+  cat: category (ClimateTrace2021)
+  area: area (ISO3)
+  scen: scenario (ReleaseDate)
+time_format: '%Y-%m-%d'
+dimensions:
+  '*':
+  - source
+  - scenario (ReleaseDate)
+  - provenance
+  - area (ISO3)
+  - entity
+  - unit
+  - category (ClimateTrace2021)
+data_file: ClimateTRACE_Inventory_2021.csv
